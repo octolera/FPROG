@@ -133,7 +133,7 @@ println("Периметр круга: " + circle.perimeter())
 val rectangle = new Rectangle(4, 6)
 println("Площадь прямоугольника: " + rectangle.area())
 println("Периметр прямоугольника: " + rectangle.perimeter())```
-
+```
 ## Ленивые функции
 ```
 // Ленивая функция
@@ -149,6 +149,7 @@ println("Результат: " + result)
 
 // Лямбда-выражение
 val addNumbers = (x: Int, y: Int) => x + y
+```
 
 // Использование лямбда-выражения
 val sum = addNumbers(5, 7)
